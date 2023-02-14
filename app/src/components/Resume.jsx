@@ -82,7 +82,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Tailwind",
-      percent: 40,
+      percent: 50,
     },
     {
       name: "MongoDB",
@@ -99,6 +99,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       name: "Typescript",
       percent: 50,
+    },
+    {
+      name: "Redux",
+      percent: 65,
+    },
+    {
+      name: "NodeJS",
+      percent: 65,
     },
   ];
 
