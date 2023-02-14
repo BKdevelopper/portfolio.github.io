@@ -19,7 +19,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                Bilal
               </a>
               . All Rights Reserved.
             </p>

@@ -14,15 +14,15 @@ const Contact = ({ classicHeader, darkTheme }) => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i86k3ms",
-        "template_si6cin9",
+        "service_wjxgfgo",
+        "template_6b24q5r",
         form.current,
-        "c9HsDgGF0tvWyVnAL"
+        "eV04oaRxVPfd2RqYp"
       )
       .then(
         (result) => {
           document.getElementById("contact-form").reset();
-          toast.success("Message sent successfully!", {
+          toast.success("L'email a bien été envoyé !", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -36,7 +36,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
           setSendingMail(false);
         },
         (error) => {
-          toast.error("Something went wrong!", {
+          toast.error("Quelque chose a mal tourné !", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -75,7 +75,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Get in Touch
+            Contact
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -88,39 +88,39 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
             >
-              Address
+              Adresse
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              4th Floor, Plot No.22,
+              
+             
+              13 Boulevard général vanier
               <br />
-              145 Murphy Canyon Rd.
-              <br />
-              San Diego CA 2028
+              Caen, France
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (060) 444 434 444
+              06 67 89 60 68
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            {/* <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
               (060) 555 545 555
-            </p>
+            </p> */}
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              chat@simone.com
+              bilalkeazdri@gmail.com
             </p>
             <h2
               className={
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
             >
-              Follow Me
+              Suivez moi
             </h2>
             <ul
               className={
@@ -129,17 +129,17 @@ const Contact = ({ classicHeader, darkTheme }) => {
               }
             >
               <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
+                <Tooltip text="Linkedin" placement="top">
                   <a
-                    href="http://www.dribbble.com/harnishdesign/"
+                    href="https://www.linkedin.com/in/bilal-kezadri/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-twitter">
+              {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
                     href="https://twitter.com/harnishdesign/"
@@ -171,11 +171,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     <i className="fab fa-google" />
                   </a>
                 </Tooltip>
-              </li>
+              </li> */}
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/BKdevelopper"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -193,7 +193,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Message
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -210,7 +210,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     type="text"
                     className="form-control"
                     required
-                    placeholder="Name"
+                    placeholder="Nom"
                   />
                 </div>
                 <div className="col-xl-6">
@@ -228,7 +228,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Votre message........"
                     defaultValue={""}
                   />
                 </div>
@@ -246,10 +246,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                         aria-hidden="true"
                         class="spinner-border spinner-border-sm align-self-center me-2"
                       ></span>
-                      Sending.....
+                      Chargement.....
                     </>
                   ) : (
-                    <>Send Message</>
+                    <>Envoyer le message</>
                   )}
                 </button>
               </p>

@@ -25,12 +25,12 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.jpg"
-                title="I'm Simone"
+                title="Je suis Bilal"
                 alt="profile"
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Bilal Kezadri
             </h1>
           </Link>
           {/* Logo End */}
@@ -78,7 +78,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   About Me
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -94,7 +94,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   What I Do
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -112,7 +112,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Resume
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -128,8 +128,8 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   Portfolio
                 </Link>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -145,7 +145,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   Testimonial
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "

@@ -4,16 +4,10 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2013 - 2017",
-      title: "Baccalauréat STI2D",
-      place: "Institut Lemonnier (Caen)",
-      desc: "Le Bac STI2D est une formation très complète qui forme les étudiants aux métiers de l’ingénierie, de l’industrie et du développement durable.",
-    },
-    {
-      yearRange: "2017 - 2019",
-      title: "BTS Système numérique (SNIR)",
-      place: "Institut Lemonnier (Caen)",
-      desc: "Le BTS Systèmes numériques - BTS SN option A informatique et réseaux (IR) est tourné vers les réseaux et leur sécurité, les systèmes embarqués, le cloud computing et la programmation des systèmes.",
+      yearRange: "2021 - 2023",
+      title: "Développeur d'application Javascript React",
+      place: "OpenClassrooms",
+      desc: "Une formation diplômante on y réalise des projets web de A à Z et on se spécialise dans l'optimisation des interfaces de nos sites. ",
     },
     {
       yearRange: "2019 - 2021",
@@ -22,44 +16,53 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "Une formation diplômante qui nous permet de maitrisez le développement web et de créez des sites web de A à Z",
     },
     {
-      yearRange: "2021 - 2023",
-      title: "Développeur d'application Javascript React",
-      place: "OpenClassrooms",
-      desc: "Une formation diplômante on y réalise des projets web de A à Z et on se spécialise dans l'optimisation des interfaces de nos sites. ",
+      yearRange: "2017 - 2019",
+      title: "BTS Système numérique (SNIR)",
+      place: "Institut Lemonnier (Caen)",
+      desc: "Le BTS Systèmes numériques - BTS SN option A informatique et réseaux (IR) est tourné vers les réseaux et leur sécurité, les systèmes embarqués, le cloud computing et la programmation des systèmes.",
     },
+    {
+      yearRange: "2013 - 2017",
+      title: "Baccalauréat STI2D",
+      place: "Institut Lemonnier (Caen)",
+      desc: "Le Bac STI2D est une formation très complète qui forme les étudiants aux métiers de l’ingénierie, de l’industrie et du développement durable.",
+    },
+
+
+
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2018",
-      title: "Développeur web",
-      place: "Supplyweb (14120 Mondeville)",
-      desc: "Découverte et utilisation de Wordpress - Analyse du site www.supplyshop.fr - Développement d'un système de réservation - Formulaire de réservation responsive",
+    yearRange: "2022",
+    title: "Développeur d'application Javascript React",
+    place: "Openclassrooms (Projets)",
+    desc: "Développez une application Web avec React et React Router - Développez un tableau de bord d'analytics avec React - Utilisez une API pour un compte utilisateur bancaire avec React - Faire passer une librairie jQuery vers React",
     },
     {
-      yearRange: "2019",
-      title: "Développeur d'application web",
-      place: "Audiotech",
-      desc: "Création d'une base de données (SQL) - Gestion des matériels - Gestion de la commande et de location du client - Gestion des activités",
+    yearRange: "2021",
+    title: "Développeur web",
+    place: "Openclassrooms (Projets)",
+    desc: "Transformez une maquette en site web avec HTML & CSS - Dynamisez une page web avec des animations CSS - Construisez une API sécurisée pour une application d'avis gastronomiques - Créez une application web de location immobilière avec React",
     },
     {
-      yearRange: "2021",
-      title: "Développeur web",
-      place: "Openclassrooms (Projets)",
-      desc: "Transformez une maquette en site web avec HTML & CSS - Dynamisez une page web avec des animations CSS - Construisez une API sécurisée pour une application d'avis gastronomiques - Créez une application web de location immobilière avec React",
+    yearRange: "2019",
+    title: "Développeur d'application web",
+    place: "Audiotech",
+    desc: "Création d'une base de données (SQL) - Gestion des matériels - Gestion de la commande et de location du client - Gestion des activités",
     },
     {
-      yearRange: "2022",
-      title: "Développeur d'application Javascript React",
-      place: "Openclassrooms (Projets)",
-      desc: "Développez une application Web avec React et React Router - Développez un tableau de bord d'analytics avec React - Utilisez une API pour un compte utilisateur bancaire avec React - Faire passer une librairie jQuery vers React",
+    yearRange: "2018",
+    title: "Développeur web",
+    place: "Supplyweb (14120 Mondeville)",
+    desc: "Découverte et utilisation de Wordpress - Analyse du site www.supplyshop.fr - Développement d'un système de réservation - Formulaire de réservation responsive",
     },
-  ];
+    ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "PHP",
+      percent: 70,
     },
     {
       name: "HTML/CSS",
@@ -71,15 +74,31 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "React JS",
-      percent: 70,
+      percent: 75,
     },
     {
-      name: "Angular Js",
+      name: "Scss",
+      percent: 80,
+    },
+    {
+      name: "Tailwind",
+      percent: 40,
+    },
+    {
+      name: "MongoDB",
       percent: 60,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "Express",
+      percent: 60,
+    },
+    {
+      name: "GIT",
+      percent: 80,
+    },
+    {
+      name: "Typescript",
+      percent: 50,
     },
   ];
 
@@ -106,7 +125,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Resume
+            Résumé
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
