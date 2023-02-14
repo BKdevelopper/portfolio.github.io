@@ -250,7 +250,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             href={resumeFile}
             download
           >
-            Download CV
+            Télécharger le CV
             <span className="ms-1">
               <i className="fas fa-download" />
             </span>

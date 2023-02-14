@@ -93,8 +93,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               
              
-              13 Boulevard général vanier
-              <br />
+              {/* 13 Boulevard général vanier */}
+              {/* <br /> */}
               Caen, France
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
@@ -113,7 +113,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              bilalkeazdri@gmail.com
+              bilalkezadri@gmail.com
             </p>
             <h2
               className={

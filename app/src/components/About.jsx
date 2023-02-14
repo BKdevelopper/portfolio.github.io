@@ -76,7 +76,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 download
                 className="btn btn-primary rounded-pill"
               >
-                Download CV
+                Télécharger le CV
               </a>
             </div>
           </div>
