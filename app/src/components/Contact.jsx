@@ -91,13 +91,12 @@ const Contact = ({ classicHeader, darkTheme }) => {
               Adresse
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              
-             
-              {/* 13 Boulevard général vanier */}
-              {/* <br /> */}
+              <span className="text-primary text-4 me-2">
+                <i className="fas fa-location-dot" />               
+              </span>
               Caen, France
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
@@ -134,6 +133,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     href="https://www.linkedin.com/in/bilal-kezadri/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="font-21"
                   >
                     <i className="fab fa-linkedin" />
                   </a>
@@ -178,6 +178,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     href="https://github.com/BKdevelopper"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="font-21"
                   >
                     <i className="fab fa-github" />
                   </a>

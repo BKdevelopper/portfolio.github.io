@@ -58,7 +58,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                     setIsNavModalClose(true);
                   }}
                 >
-                  Home
+                  Acceuil
                 </Link>
               </li>
               <li className="nav-item">
@@ -75,7 +75,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                     setIsNavModalClose(true);
                   }}
                 >
-                  About Me
+                  En savoir plus
                 </Link>
               </li>
               {/* <li className="nav-item">
@@ -109,7 +109,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                     setIsNavModalClose(true);
                   }}
                 >
-                  Resume
+                  Résumé
                 </Link>
               </li>
               {/* <li className="nav-item">
